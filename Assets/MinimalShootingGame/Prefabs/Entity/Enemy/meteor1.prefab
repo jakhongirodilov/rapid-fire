@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.6214589, y: 0.23871648, z: -0.035176177}
+  m_LocalScale: {x: -0.6214589, y: 0.23871648, z: -0.1291212}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1441742913209693952}
@@ -162,7 +162,7 @@ GameObject:
   - component: {fileID: 1803528520333080073}
   - component: {fileID: 2659143976182174506}
   m_Layer: 0
-  m_Name: EnemyPupple
+  m_Name: meteor1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -202,12 +202,12 @@ MonoBehaviour:
   prefabExplosion: {fileID: 5677757216019247570, guid: 9948f043eca0c2348988e0c51687194f,
     type: 3}
   speedMin: 2
-  speedMax: 20
+  speedMax: 10
   direction: {x: 0, y: 0, z: -1}
   movementType: 2
   scaleMin: 0.7
   scaleMax: 1.5
-  maxHp: 3
+  maxHp: 1
 --- !u!54 &2659143976182174506
 Rigidbody:
   m_ObjectHideFlags: 0

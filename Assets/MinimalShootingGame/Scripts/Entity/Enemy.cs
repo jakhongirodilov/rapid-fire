@@ -33,7 +33,7 @@ namespace MinimalShooting
         float speedMin = 1.0f;
 
         [SerializeField]
-        float speedMax = 4.0f;
+        float speedMax = 2.0f;
 
 
         [Header("Movement direction")]
