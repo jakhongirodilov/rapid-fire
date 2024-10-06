@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "rapid-fire.sln"
+    "dotnet.defaultSolution": "rapid-fire 2.sln"
 }
